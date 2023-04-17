@@ -1,0 +1,89 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+nav h2{
+    color: black;
+    padding-left: 2%;
+    font-family: "Raleway", sans-serif;
+    font-size: 23px;
+    margin-top: 10px;
+}
+.nav-ul-react{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-ul-react li a{
+    display: inline-block;
+    color: aliceblue;
+    font-family: "Raleway", sans-serif;
+    margin-right: 32px;
+    padding: 8px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.nav-ul-react li a:hover{
+    color: gold;
+}
+.navbars-react{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    height: 75px;
+}
+
+.actual-data-react{
+    padding: 2%; 
+}
+.wrapper-react{
+    background-color: white;
+    color: black;
+    padding: 0 1%;
+    border-radius: 10px;
+}
+.wrapper-react:hover{
+    background-image: linear-gradient(to right, #C621E5, #7D7CF9);
+    color: white;
+}
+.wrapper-react p{
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    border: 1px solid black;
+    padding: 2%;
+}
+.wrapper-react{
+    display: grid;
+    grid-template-columns: 10% 25% 25% 20% 10% 10%;
+    padding-top: 1%;
+}
+.wrapper-2-react{
+    background-color: white;
+    color: black;
+    padding: 0 1%;
+    border-radius: 10px;
+}
+.wrapper-2-react:hover{
+    background-image: linear-gradient(to right, #C621E5, #7D7CF9);
+    color: white;
+}
+.wrapper-2-react p{
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    border: 1px solid black;
+    padding: 2%;
+}
+.wrapper-2-react{
+    display: grid;
+    grid-template-columns: 10% 25% 25% 20% 10% 10%;
+    padding-top: 1%;
+}

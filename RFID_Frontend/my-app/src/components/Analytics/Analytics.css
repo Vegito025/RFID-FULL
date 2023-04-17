@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+.analytics h1{
+    color: white;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    padding-top: 5%;
+    font-size: 35px;
+}
+#register_no{
+    background-color: black;
+    display: block;
+    border: 0;
+    border-bottom: 1px solid white;
+    padding: 0.5%;
+    font-size: 20px;
+    margin-left: 30%;
+    text-align: center;
+    margin-top: 2%;
+    width: 40%;
+    color: white;
+}
+#register_no:focus{
+    outline: none;
+}
+
+#date{
+    margin-top: 2%;
+    margin-left: 1%;
+    padding: 0.2% 0.5% 0.2% 0.5%;
+    color-scheme: dark;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
+#date:focus{
+    outline: none;
+}
+.analytics p{
+    color: white;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+}
+.from_date{
+    margin-left: 30.2%;
+    padding: 0;
+    font-size: 18px;
+}
+.to_date{
+    margin-left: 11%;
+    padding: 0;
+    font-size: 18px;
+}
+.analytics-submit{
+    font-size: larger;
+    margin-left: 46%;
+    margin-top: 2%;
+    padding: 1% 2% 1% 2%;
+    font-family: "Raleway", sans-serif;
+}
+.chart{
+    color: white;
+    padding: 5%;
+    margin-top: 5%;
+}
